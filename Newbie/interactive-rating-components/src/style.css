@@ -13,8 +13,83 @@
   --deepBlue: hsl(216, 12%, 8%);
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: var(--deepBlue);
   font-size: 15px;
   font-family: 'Overpass', sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: max-content;
+  width: 18rem;
+  border-radius: 1rem;
+  background: linear-gradient(to top right, var(--darkerBlue), var(--darkBlue));
+  padding: 1.5rem;
+}
+
+.card--icon {
+  color: var(--primaryOrange);
+}
+
+.card--icon > img {
+  height: 0.7rem;
+}
+
+.card--title {
+  color: var(--white);
+  font-size: 1.2rem;
+  margin-block: 1rem;
+}
+
+.card--text {
+  color: var(--lightGray);
+  font-size: 0.75rem;
+}
+
+.card--ratings {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 1.5rem;
+}
+
+.card--rating-item {
+  color: var(--lightGray);
+  font-size: 0.65rem;
+}
+
+.button {
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  background-color: var(--darkBlue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card--submit {
+  background-color: var(--primaryOrange);
+  width: 100%;
+  border: none;
+  outline: none;
+  color: var(--white);
+  padding-block: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  border-radius: 1rem;
 }
