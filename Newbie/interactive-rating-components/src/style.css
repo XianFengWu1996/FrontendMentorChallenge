@@ -1,0 +1,20 @@
+/* import the google font */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+  /* set up colors */
+  --primaryOrange: hsl(25, 97%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --lightGray: hsl(217, 12%, 63%);
+  --mediumGray: hsl(216, 12%, 54%);
+  --darkBlue: hsl(213, 19%, 18%);
+  --darkerBlue: hsl(213, 19%, 11%);
+
+  --deepBlue: hsl(216, 12%, 8%);
+}
+
+body {
+  background: var(--deepBlue);
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+}
