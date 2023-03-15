@@ -68,9 +68,22 @@ body {
 .card--rating-item {
   color: var(--lightGray);
   font-size: 0.65rem;
+  cursor: pointer;
+}
+
+.card--rating-item:hover {
+  background-color: var(--primaryOrange);
+  color: var(--white);
+}
+
+.card--btn-selected {
+  background-color: var(--lightGray) !important;
+  color: var(--white) !important;
 }
 
 .button {
+  border: none;
+  outline: none;
   border-radius: 100%;
   height: 35px;
   width: 35px;
@@ -92,4 +105,10 @@ body {
   font-size: 0.65rem;
   font-weight: 700;
   border-radius: 1rem;
+}
+
+.card--submit:hover {
+  background-color: var(--white);
+  color: var(--primaryOrange);
+  cursor: pointer;
 }
