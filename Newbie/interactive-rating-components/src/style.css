@@ -141,4 +141,47 @@ body {
   font-size: 0.65rem;
   padding: 0.5rem;
   border-radius: 1rem;
+  text-align: center;
+}
+
+/* MEDIA QUERY */
+@media screen and (min-width: 992px) {
+  .card {
+    width: 22rem;
+  }
+
+  .card--icon > img {
+    height: 1rem;
+  }
+
+  .card--title {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+  }
+
+  .card--text {
+    font-size: 0.85rem;
+  }
+
+  .card--rating-item {
+    font-size: 0.75rem;
+  }
+
+  .button {
+    height: 45px;
+    width: 45px;
+  }
+
+  .card--submit {
+    font-size: 0.75rem;
+  }
+
+  .card--content-thankyou {
+    margin-block: 0.7rem;
+  }
+
+  .rating-display {
+    font-size: 0.75rem;
+    padding-inline: 0.95rem;
+  }
 }
