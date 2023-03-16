@@ -51,7 +51,7 @@ body {
 .card--title {
   color: var(--white);
   font-size: 1.2rem;
-  margin-block: 1rem;
+  margin-block: 0.8rem;
 }
 
 .card--text {
@@ -111,4 +111,34 @@ body {
   background-color: var(--white);
   color: var(--primaryOrange);
   cursor: pointer;
+}
+
+.card--submit:disabled {
+  background-color: var(--mediumGray);
+  color: var(--white);
+  cursor: not-allowed;
+}
+
+/* Thank you state */
+.card--content-thankyou {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card--content-thankyou > img {
+  height: 4.5rem;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.rating-display {
+  color: var(--primaryOrange);
+  margin-top: 1.5rem;
+  background-color: var(--darkBlue);
+  font-size: 0.65rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
 }
